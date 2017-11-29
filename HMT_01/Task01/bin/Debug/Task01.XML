@@ -4,7 +4,7 @@
         <name>Task01</name>
     </assembly>
     <members>
-        <member name="M:Task01.Program.Calculation(System.Double,System.Double,System.String)">
+        <member name="M:Task01.PointBelonging.Calculation(System.Double,System.Double,System.String)">
             <summary>
             GraphA вычисляет принадлежность точки к каждому графику графику.
             </summary>
