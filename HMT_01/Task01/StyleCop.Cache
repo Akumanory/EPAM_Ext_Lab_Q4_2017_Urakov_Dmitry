@@ -32,11 +32,14 @@
       </violation>
     </violations>
   </sourcecode>
-  <sourcecode name="PointBelonging.cs" parser="StyleCop.CSharp.CsParser">
+  <project key="1830329851">
+    <configuration>DEBUG;TRACE</configuration>
+  </project>
+  <sourcecode name="Program.cs" parser="StyleCop.CSharp.CsParser">
     <timestamps>
       <styleCop>2016.11.09 21:13:02.000</styleCop>
       <settingsFile>2017.11.29 07:02:33.690</settingsFile>
-      <sourceFile>2017.11.29 07:12:59.695</sourceFile>
+      <sourceFile>2017.11.29 07:16:13.850</sourceFile>
       <parser>2016.11.09 21:13:02.000</parser>
       <StyleCop.CSharp.DocumentationRules>2016.11.09 21:13:02.000</StyleCop.CSharp.DocumentationRules>
       <StyleCop.CSharp.DocumentationRules.FilesHashCode>962423651</StyleCop.CSharp.DocumentationRules.FilesHashCode>
@@ -55,14 +58,14 @@
     </timestamps>
     <violations />
   </sourcecode>
-  <project key="1830329851">
+  <project key="-1166418230">
     <configuration>DEBUG;TRACE</configuration>
   </project>
-  <sourcecode name="Program.cs" parser="StyleCop.CSharp.CsParser">
+  <sourcecode name="PointBelonging.cs" parser="StyleCop.CSharp.CsParser">
     <timestamps>
       <styleCop>2016.11.09 21:13:02.000</styleCop>
-      <settingsFile>2017.11.29 07:02:33.690</settingsFile>
-      <sourceFile>2017.11.29 07:16:13.850</sourceFile>
+      <settingsFile>2017.11.29 01:27:34.000</settingsFile>
+      <sourceFile>2017.11.29 15:15:42.455</sourceFile>
       <parser>2016.11.09 21:13:02.000</parser>
       <StyleCop.CSharp.DocumentationRules>2016.11.09 21:13:02.000</StyleCop.CSharp.DocumentationRules>
       <StyleCop.CSharp.DocumentationRules.FilesHashCode>962423651</StyleCop.CSharp.DocumentationRules.FilesHashCode>

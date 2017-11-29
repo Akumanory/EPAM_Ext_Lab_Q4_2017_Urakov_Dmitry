@@ -26,11 +26,14 @@
   <project key="-898553504">
     <configuration>DEBUG;TRACE</configuration>
   </project>
+  <project key="399665711">
+    <configuration>DEBUG;TRACE</configuration>
+  </project>
   <sourcecode name="Program.cs" parser="StyleCop.CSharp.CsParser">
     <timestamps>
       <styleCop>2016.11.09 21:13:02.000</styleCop>
-      <settingsFile>2017.11.29 04:10:40.566</settingsFile>
-      <sourceFile>2017.11.29 05:25:01.356</sourceFile>
+      <settingsFile>2017.11.29 01:27:34.000</settingsFile>
+      <sourceFile>2017.11.29 15:51:24.644</sourceFile>
       <parser>2016.11.09 21:13:02.000</parser>
       <StyleCop.CSharp.DocumentationRules>2016.11.09 21:13:02.000</StyleCop.CSharp.DocumentationRules>
       <StyleCop.CSharp.DocumentationRules.FilesHashCode>962423651</StyleCop.CSharp.DocumentationRules.FilesHashCode>

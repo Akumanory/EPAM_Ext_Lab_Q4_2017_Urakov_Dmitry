@@ -12,5 +12,21 @@
             <param name="y">Значение координаты y.</param>
             <param name="graphLetter">Название графика.</param>
         </member>
+        <member name="M:Task01.PointBelonging.CoordinateBelonging(System.Double,System.Double,System.String,System.Boolean)">
+            <summary>
+            Метотод выводит строку говорящую о том что координата принадлежит графику.
+            </summary>
+            <param name="x">Точка х координаты.</param>
+            <param name="y">Точка у координаты.</param>
+            <param name="graphLetter">Буква графика.</param>
+        </member>
+        <member name="M:Task01.PointBelonging.CoordinateDoNotBelongs(System.Double,System.Double,System.String)">
+            <summary>
+            Метотод выводит строку говорящую о том что координата не принадлежит графику.
+            </summary>
+            <param name="x">Точка х координаты.</param>
+            <param name="y">Точка у координаты</param>
+            <param name="graphLetter">Буква графика.</param>
+        </member>
     </members>
 </doc>

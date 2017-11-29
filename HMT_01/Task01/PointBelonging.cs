@@ -16,136 +16,137 @@
         /// <param name="graphLetter">Название графика.</param>
         public static void Calculation(double x, double y, string graphLetter)
         {
+            bool a = false;
             switch (graphLetter)
             {
                 case "а":
             
-                    if ((x * x) + (y * y) <= 1)
+                    if (a = (x * x) + (y * y) <= 1)
                     {
-                        CoordinateBelongs(x, y, graphLetter);
+                        CoordinateBelonging(x, y, graphLetter, a);
                     }
                     else
                     {
-                        CoordinateDoNotBelongs(x, y, graphLetter);
+                        CoordinateBelonging(x, y, graphLetter, a);
                     }
 
                     break;
 
                 case "б":
 
-                    if (((x * x) + (y * y) <= 1) & ((x * x) + (y * y) >= 0.5))
+                    if (a = ((x * x) + (y * y) <= 1) & ((x * x) + (y * y) >= 0.5))
                     {
-                        CoordinateBelongs(x, y, graphLetter);
+                        CoordinateBelonging(x, y, graphLetter, a);
                     }
                     else
                     {
-                        CoordinateDoNotBelongs(x, y, graphLetter);
+                        CoordinateBelonging(x, y, graphLetter, a);
                     }
 
                     break;
 
                 case "в":
 
-                    if ((x <= 1) & (x >= -1) & (y <= 1) & (y >= -1))
+                    if (a = (x <= 1) & (x >= -1) & (y <= 1) & (y >= -1))
                     {
-                        CoordinateBelongs(x, y, graphLetter);
+                        CoordinateBelonging(x, y, graphLetter, a);
                     }
                     else
                     {
-                        CoordinateDoNotBelongs(x, y, graphLetter);
+                        CoordinateBelonging(x, y, graphLetter, a);
                     }
 
                     break;
 
                 case "г":
 
-                    if ((x * y / 2 >= -0.5) | (x * y / 2 <= 0.5))
+                    if (a = (x * y / 2 >= -0.5) | (x * y / 2 <= 0.5))
                     {
-                        CoordinateBelongs(x, y, graphLetter);
+                        CoordinateBelonging(x, y, graphLetter, a);
                     }
                     else
                     {
-                        CoordinateDoNotBelongs(x, y, graphLetter);
+                        CoordinateBelonging(x, y, graphLetter, a);
                     }
 
                     break;
 
                 case "д":
 
-                    if ((x <= 0.5) & (x >= -0.5) & (y <= 1) & (y >= -1) & ((x * y / 2 >= -0.25) | (x * y / 2 <= 0.25)))
+                    if (a = (x <= 0.5) & (x >= -0.5) & (y <= 1) & (y >= -1) & ((x * y / 2 >= -0.25) | (x * y / 2 <= 0.25)))
                     {
-                        CoordinateBelongs(x, y, graphLetter);
+                        CoordinateBelonging(x, y, graphLetter, a);
                     }
                     else
                     {
-                        CoordinateDoNotBelongs(x, y, graphLetter);
+                        CoordinateBelonging(x, y, graphLetter, a);
                     }
 
                     break;
 
                 case "е":
 
-                    if (((x >= -2) & (x <= 0) & (y <= 1) & (y >= -1) & (((x * y) / 2 <= 1) | ((x * y) / 2 >= -1))) | ((x >= 0) & (x <= 1) & (y <= 1) & (y >= -1) & ((x * x) + (y * y) <= 1)))
+                    if (a = ((x >= -2) & (x <= 0) & (y <= 1) & (y >= -1) & (((x * y) / 2 <= 1) | ((x * y) / 2 >= -1))) | ((x >= 0) & (x <= 1) & (y <= 1) & (y >= -1) & ((x * x) + (y * y) <= 1)))
                     {
-                        CoordinateBelongs(x, y, graphLetter);
+                        CoordinateBelonging(x, y, graphLetter, a);
                     }
                     else
                     {
-                        CoordinateDoNotBelongs(x, y, graphLetter);
+                        CoordinateBelonging(x, y, graphLetter, a);
                     }
 
                     break;
 
                 case "ж":
 
-                    if (((((-1.5 - x) * (2 + 1)) - ((0 + 1.5) * (-1 - y))) > 0) & ((((0 - x) * (-1 - 2)) - ((1.5 - 0) * (2 - y))) > 0) & ((((1.5 - x) * (-1 + 1)) - ((-1.5 - 1.5) * (-1 - y))) > 0) |
+                    if (a = ((((-1.5 - x) * (2 + 1)) - ((0 + 1.5) * (-1 - y))) > 0) & ((((0 - x) * (-1 - 2)) - ((1.5 - 0) * (2 - y))) > 0) & ((((1.5 - x) * (-1 + 1)) - ((-1.5 - 1.5) * (-1 - y))) > 0) |
                          ((((-1.5 - x) * (2 + 1)) - ((0 + 1.5) * (-1 - y))) < 0) & ((((0 - x) * (-1 - 2)) - ((1.5 - 0) * (2 - y))) < 0) & ((((1.5 - x) * (-1 + 1)) - ((-1.5 - 1.5) * (-1 - y))) < 0) |
                          ((((-1.5 - x) * (2 + 1)) - ((0 + 1.5) * (-1 - y))) == 0) | ((((0 - x) * (-1 - 2)) - ((1.5 - 0) * (2 - y))) < 0) & ((((1.5 - x) * (-1 + 1)) - ((-1.5 - 1.5) * (-1 - y))) == 0))
                     {
-                        CoordinateBelongs(x, y, graphLetter);
+                        CoordinateBelonging(x, y, graphLetter, a);
                     }
                     else
                     {
-                        CoordinateDoNotBelongs(x, y, graphLetter);
+                        CoordinateBelonging(x, y, graphLetter, a);
                     }
 
                     break;
 
                 case "з":
 
-                    if (((x >= 0) & (x <= 1) & (y - x <= 0) & (y >= -2)) | ((x <= 0) & (x >= -1) & (-x - y >= 0) & (y >= -2)))
+                    if (a = ((x >= 0) & (x <= 1) & (y - x <= 0) & (y >= -2)) | ((x <= 0) & (x >= -1) & (-x - y >= 0) & (y >= -2)))
                     {
-                        CoordinateBelongs(x, y, graphLetter);
+                        CoordinateBelonging(x, y, graphLetter, a);
                     }
                     else
                     {
-                        CoordinateDoNotBelongs(x, y, graphLetter);
+                        CoordinateBelonging(x, y, graphLetter, a);
                     }
 
                     break;
 
                 case "и":
 
-                    if (((x - (3 * y) <= 1) & (y < 0) & (x >= 0)) | ((x <= 0) & (x - (3 * y) <= 1) & ((2 * x) - y >= -3) & (y + x <= 0)))
+                    if (a = ((x - (3 * y) <= 1) & (y < 0) & (x >= 0)) | ((x <= 0) & (x - (3 * y) <= 1) & ((2 * x) - y >= -3) & (y + x <= 0)))
                     {
-                        CoordinateBelongs(x, y, graphLetter);
+                        CoordinateBelonging(x, y, graphLetter, a);
                     }
                     else
                     {
-                        CoordinateDoNotBelongs(x, y, graphLetter);
+                        CoordinateBelonging(x, y, graphLetter, a);
                     }
 
                     break;
 
                 case "к":
 
-                    if (((x <= -1) & (y >= 1)) | ((x <= 0) & (x >= -1) & (y + x >= 0)) | ((x >= 0) & (x <= 1) & (x - y <= 0)) | ((x >= 1) & (y >= 1)))
+                    if (a = ((x <= -1) & (y >= 1)) | ((x <= 0) & (x >= -1) & (y + x >= 0)) | ((x >= 0) & (x <= 1) & (x - y <= 0)) | ((x >= 1) & (y >= 1)))
                     {
-                        CoordinateBelongs(x, y, graphLetter);
+                        CoordinateBelonging(x, y, graphLetter, a);
                     }
                     else
                     {
-                        CoordinateDoNotBelongs(x, y, graphLetter);
+                        CoordinateBelonging(x, y, graphLetter, a);
                     }
 
                     break;
@@ -153,25 +154,22 @@
         }
 
         /// <summary>
-        /// Метотод выводит строку говорящую о том что координата принадлежит графику.
+        /// Метотод выводит строку говорящую о том что координата либо принадлежит, либо не принадлежит графику.
         /// </summary>
         /// <param name="x">Точка х координаты.</param>
         /// <param name="y">Точка у координаты.</param>
         /// <param name="graphLetter">Буква графика.</param>
-        private static void CoordinateBelongs(double x, double y, string graphLetter)
+        /// <param name="belonging">Проверка вхождения координаты в график.</param>
+        private static void CoordinateBelonging(double x, double y, string graphLetter, bool belonging) ////todo pn методы можно объединить в один
         {
-            Console.WriteLine("Coordinate with dot x= {0} and dot y= {1} belongs to graph '{2}'", x, y, graphLetter);
-        }
-
-        /// <summary>
-        /// Метотод выводит строку говорящую о том что координата не принадлежит графику.
-        /// </summary>
-        /// <param name="x">Точка х координаты.</param>
-        /// <param name="y">Точка у координаты</param>
-        /// <param name="graphLetter">Буква графика.</param>
-        private static void CoordinateDoNotBelongs(double x, double y, string graphLetter)
-        {
-            Console.WriteLine("Coordinate with dot x= {0} and dot y= {1} do not belongs to graph '{2}'", x, y, graphLetter);
+            if (belonging)
+            {
+                Console.WriteLine("Coordinate with dot x= {0} and dot y= {1} belongs to graph '{2}'", x, y, graphLetter);
+            }
+            else 
+            {
+                Console.WriteLine("Coordinate with dot x= {0} and dot y= {1} do not belongs to graph '{2}'", x, y, graphLetter);
+            } 
         }
     }
 }
