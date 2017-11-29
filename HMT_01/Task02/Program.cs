@@ -7,7 +7,7 @@
         /*
          Дано действительное число h. Выяснить, имеет ли уравнение ax2 + bx + c = 0 действительные корни.
          */
-        public static void Main(string[] args)
+        public static void Main(string[] args)//todo pn частное решение для общей задачи (вычисление корней квадратного уравнения)
         {
             double h, a, b, c, discriminant, x1, x2;
 

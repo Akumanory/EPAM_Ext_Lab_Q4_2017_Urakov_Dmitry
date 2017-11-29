@@ -158,7 +158,7 @@
         /// <param name="x">Точка х координаты.</param>
         /// <param name="y">Точка у координаты.</param>
         /// <param name="graphLetter">Буква графика.</param>
-        private static void CoordinateBelongs(double x, double y, string graphLetter)
+        private static void CoordinateBelongs(double x, double y, string graphLetter)//todo pn методы можно объединить в один
         {
             Console.WriteLine("Coordinate with dot x= {0} and dot y= {1} belongs to graph '{2}'", x, y, graphLetter);
         }
@@ -169,7 +169,7 @@
         /// <param name="x">Точка х координаты.</param>
         /// <param name="y">Точка у координаты</param>
         /// <param name="graphLetter">Буква графика.</param>
-        private static void CoordinateDoNotBelongs(double x, double y, string graphLetter)
+		private static void CoordinateDoNotBelongs(double x, double y, string graphLetter)//todo pn методы можно объединить в один
         {
             Console.WriteLine("Coordinate with dot x= {0} and dot y= {1} do not belongs to graph '{2}'", x, y, graphLetter);
         }
