@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{174E32F2-2077-4FDB-AC42-C0FCA60150B2}</ProjectGuid>
+    <ProjectGuid>{75A36CBE-802E-4313-9414-65014D3CF3FB}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>HWT_02</RootNamespace>
-    <AssemblyName>HWT_02</AssemblyName>
+    <RootNamespace>Task01</RootNamespace>
+    <AssemblyName>Task01</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>

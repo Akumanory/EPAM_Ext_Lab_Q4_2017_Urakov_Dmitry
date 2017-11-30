@@ -1,4 +1,4 @@
-﻿namespace HWT_02
+﻿namespace Task01
 {
     using System;
     /*
@@ -14,13 +14,13 @@
 
             do
             {
-            Console.WriteLine("\nEnter the value of line 'a'");
-            double.TryParse(Console.ReadLine(), out a);
-            Test(a);
-            Console.WriteLine("\nEnter the value of line 'b'");
-            double.TryParse(Console.ReadLine(), out b);
-            Test(b);
-            } 
+                Console.WriteLine("\nEnter the value of line 'a'");
+                double.TryParse(Console.ReadLine(), out a);
+                Test(a);
+                Console.WriteLine("\nEnter the value of line 'b'");
+                double.TryParse(Console.ReadLine(), out b);
+                Test(b);
+            }
             while ((a <= 0) | (b <= 0));
 
             AreaOfRectangle(a, b);
