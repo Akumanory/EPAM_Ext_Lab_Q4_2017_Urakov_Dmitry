@@ -9,7 +9,7 @@
          Сумма этих чисел будет равна 23. 
          Напишите программу, которая выводит на экран сумму всех чисел меньше 1000, кратных 3, или 5.
          */
-        public static void Main(string[] args)
+        public static void Main(string[] args)//todo pn частное решение
         {
             int sum = 0;
 

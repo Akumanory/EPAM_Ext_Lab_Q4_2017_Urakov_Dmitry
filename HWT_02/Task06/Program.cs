@@ -30,7 +30,7 @@ using System;
                 a.ChekingItalic(number, box, style0, style1, style2, style3);
                 a.ChekingUnderline(number, box, style0, style1, style2, style3);
             } 
-            while (number < 4);
+            while (number < 4);//todo pn хардкод и секретное знание
 
             Console.ReadKey();
         }

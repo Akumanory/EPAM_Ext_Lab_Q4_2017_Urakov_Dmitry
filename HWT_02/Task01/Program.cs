@@ -32,7 +32,7 @@
         /// Определяет и сообщает об ошибке если есть.
         /// </summary>
         /// <param name="t">Проверяемая переменная.</param>
-        public static void Test(double t)
+        public static void Test(double t)//todo pn неинформативное название метода
         {
             if (t <= 0)
             {
