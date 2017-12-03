@@ -1,0 +1,6 @@
+C:\Users\koma\Desktop\HWT_02\DopTask06\bin\Debug\DopTask06.exe.config
+C:\Users\koma\Desktop\HWT_02\DopTask06\bin\Debug\DopTask06.exe
+C:\Users\koma\Desktop\HWT_02\DopTask06\bin\Debug\DopTask06.pdb
+C:\Users\koma\Desktop\HWT_02\DopTask06\obj\Debug\DopTask06.exe
+C:\Users\koma\Desktop\HWT_02\DopTask06\obj\Debug\DopTask06.pdb
+C:\Users\koma\Desktop\HWT_02\DopTask06\obj\Debug\DopTask06.csprojResolveAssemblyReference.cache

@@ -16,10 +16,10 @@
             {
                 Console.WriteLine("\nEnter the value of line 'a'");
                 double.TryParse(Console.ReadLine(), out a);
-                Test(a);
+                ErrorMessage(a);
                 Console.WriteLine("\nEnter the value of line 'b'");
                 double.TryParse(Console.ReadLine(), out b);
-                Test(b);
+                ErrorMessage(b);
             }
             while ((a <= 0) | (b <= 0));
 
@@ -32,7 +32,7 @@
         /// Определяет и сообщает об ошибке если есть.
         /// </summary>
         /// <param name="t">Проверяемая переменная.</param>
-        public static void Test(double t)//todo pn неинформативное название метода
+        public static void ErrorMessage(double t) ////todo pn неинформативное название метода
         {
             if (t <= 0)
             {

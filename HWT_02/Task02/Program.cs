@@ -16,7 +16,7 @@
             for (int i = 1; i < n + 1; i++)
             {
                 string a = new string('*', i);
-                Console.WriteLine("\n{0}", a);//todo pn в заднии не просили вставлять пробел
+                Console.WriteLine("{0}", a); ////todo pn в заднии не просили вставлять пробел
             }
 
             Console.ReadLine();

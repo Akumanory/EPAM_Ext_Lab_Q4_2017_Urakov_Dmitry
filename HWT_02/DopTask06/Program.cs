@@ -1,15 +1,19 @@
-﻿namespace Task06
-{
-    using System;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
-    public class Program
+namespace DopTask06
+{
+    class Program
     {
         /*
          Для выделения текстовой надписи можно использовать выделение жирным, курсивом и подчёркиванием.
          Предложите способ хранения информации о выделении надписи и напишите программу, которая позволяет назначать и удалять текстовой надписи выделение:
          */
 
-        public static void Main(string[] args)
+        static void Main(string[] args)
         {
             Console.WriteLine("Чтобы закончить работу с программой нажмите 4\nПараметры надписи: None");
             ListOfStyles();
@@ -18,7 +22,6 @@
 
             Console.ReadKey();
         }
-
         /// <summary>
         /// Выводит запись с возможными стилями.
         /// </summary>
@@ -47,10 +50,10 @@
 
             do
             {
-                paramStyle = string.Empty;
+                paramStyle = "";
 
                 int.TryParse(Console.ReadLine(), out styleNumber);
-
+            
                 switch (styleNumber)
                 {
                     case 1:
@@ -72,6 +75,7 @@
                     MessageOfLabelParametre(paramStyle);
                     ListOfStyles();
                 }
+           
 
                 if (bold == true)
                 {
@@ -89,12 +93,12 @@
 
                 if (underline == true)
                 {
-                    paramStyle += " Underline";
+                     paramStyle += " Underline";
                     MessageOfLabelParametre(paramStyle);
                     ListOfStyles();
                 }
-            } 
-            while (styleNumber != 4);
+
+            } while (styleNumber != 4);
         }
     }
 }
