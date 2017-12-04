@@ -37,7 +37,7 @@
             Random rand = new Random();
             for (int i = 0; i < arr.Length; i++)
             {
-                arr[i] = rand.Next(100);
+                arr[i] = rand.Next(100);//todo pn хардкод
                 Console.WriteLine("Array element[{0}] = {1}", i, arr[i]);
             }
            

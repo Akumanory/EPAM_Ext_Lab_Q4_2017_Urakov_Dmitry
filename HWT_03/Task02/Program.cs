@@ -47,7 +47,7 @@
                 {
                     for (int k = 0; k < numByZ; k++)
                     {
-                        arr[i, j, k] = rand.Next(100) - 50;
+						arr[i, j, k] = rand.Next(100) - 50;//todo pn хардкод
                     }
                 }  
             }
