@@ -42,7 +42,7 @@
 
                 for (int j = 0; j < numY; j++)
                 {
-                    arr[i, j] = rand.Next(100) - 30;
+					arr[i, j] = rand.Next(100) - 30;//todo pn хардкод
                     Console.Write(arr[i, j] + "\t"); 
                 }
             }
