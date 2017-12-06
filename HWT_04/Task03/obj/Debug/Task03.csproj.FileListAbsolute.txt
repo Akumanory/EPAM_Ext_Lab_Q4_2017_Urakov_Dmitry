@@ -1,0 +1,7 @@
+C:\Users\koma\Desktop\EPAM\Домашняя\3\HWT_04\Task03\bin\Debug\Task03.exe
+C:\Users\koma\Desktop\EPAM\Домашняя\3\HWT_04\Task03\bin\Debug\Task03.pdb
+C:\Users\koma\Desktop\EPAM\Домашняя\3\HWT_04\Task03\obj\Debug\Task03.csprojResolveAssemblyReference.cache
+C:\Users\koma\Desktop\EPAM\Домашняя\3\HWT_04\Task03\obj\Debug\Task03.exe
+C:\Users\koma\Desktop\EPAM\Домашняя\3\HWT_04\Task03\obj\Debug\Task03.pdb
+C:\Users\koma\Documents\GitHub\EPAM_Ext_Lab_Q4_2017_Urakov_Dmitry\HWT_04\Task03\obj\Debug\Task03.exe
+C:\Users\koma\Documents\GitHub\EPAM_Ext_Lab_Q4_2017_Urakov_Dmitry\HWT_04\Task03\obj\Debug\Task03.pdb
