@@ -52,12 +52,12 @@
             {
                 for (int i = 1; i < line.Length + 1; i++)
                 {
-                    if (charArr[i - 1] == ' ' && charArr[i] != ' ')
+					if (charArr[i - 1] == ' ' && charArr[i] != ' ')
                     {
                         numberOfLines++;
                     }
 
-                    if (charArr[i - 1] != ',' & charArr[i - 1] != '.' & charArr[i - 1] != ' ')
+                    if (charArr[i - 1] != ',' & charArr[i - 1] != '.' & charArr[i - 1] != ' ')//todo pn костыли. Char.IsSeparator
                     {
                         numberOfCharacter++;
                     }

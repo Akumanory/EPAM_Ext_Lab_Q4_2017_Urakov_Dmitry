@@ -10,14 +10,14 @@
          Проведите сравнительный анализ скорости работы классов String и StringBuilder для операции сложения строк.
          */
         public static void Main(string[] args)
-        { 
-            OperationsWorkTime(10000);
-            OperationsWorkTime(100000);
-            OperationsWorkTime(200000);
-            OperationsWorkTime(300000);
-            OperationsWorkTime(400000);
-            OperationsWorkTime(500000);
-            OperationsWorkTime(600000);
+        {
+			OperationsWorkTime(10000);//todo pn хардкод
+			OperationsWorkTime(100000);//todo pn хардкод
+			OperationsWorkTime(200000);//todo pn хардкод
+			OperationsWorkTime(300000);//todo pn хардкод
+			OperationsWorkTime(400000);//todo pn хардкод
+			OperationsWorkTime(500000);//todo pn хардкод
+			OperationsWorkTime(600000);//todo pn хардкод
             
             Console.ReadKey();
         }
@@ -40,7 +40,7 @@
             for (int i = 0; i < n; i++)
             {
                 stopwatchFirst.Start();
-                str += "*";
+                str += "*";//todo pn хардкод
                 stopwatchFirst.Stop();
                 time += stopwatchFirst.ElapsedMilliseconds;
             }
@@ -51,7 +51,7 @@
             for (int i = 0; i < n; i++)
             {
                 stopwatchSecond.Start();
-                sb.Append("*");
+				sb.Append("*");//todo pn хардкод
                 stopwatchSecond.Stop();
                 time += stopwatchSecond.ElapsedMilliseconds;
             }
