@@ -5,7 +5,7 @@
         private int workExperience;
         private string position;
 
-        public int WorkExperience
+        public int WorkExperience//todo pn лучше датой
         {
             get
             {

@@ -56,7 +56,7 @@
             }
         }
 
-        public bool IsTriangleExist()
+        public bool IsTriangleExist()//todo pn проверка должна выполняться в самом классе, а не где-то вовне
         {
             if ((this.a < this.b + this.c) & (this.b < this.a + this.c) & (this.c < this.a + this.b))
             {

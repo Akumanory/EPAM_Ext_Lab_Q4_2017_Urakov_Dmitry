@@ -35,7 +35,7 @@
 
             set
             {
-                if (value != string.Empty)
+                if (value != string.Empty) //todo pn string.IsNullOrEmpty
                 {
                     name = value;
                 }
@@ -76,7 +76,7 @@
             get { return age; }
         }
 
-        public void GetAgeByBirthDate()
+        public void GetAgeByBirthDate()//todo pn аналогично, вычисление должно быть в age
         {
             DateTime now = DateTime.Now;
             int age = now.Year - dateOfBorn.Year;

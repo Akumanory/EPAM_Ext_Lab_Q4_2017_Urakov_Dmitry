@@ -2,7 +2,7 @@
 {
     public class Ring : Circle  
     {
-        private int outterRadius;
+        private int outterRadius;//todo pn а как ты используешь r? какой тогда смысл был наследоваться от окружности?
         private int innnerRadius;
 
         public int InnerRadius
