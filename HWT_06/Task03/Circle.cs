@@ -10,7 +10,7 @@ namespace Task03
     {
         public Circle()
         {
-            FigureType = "Circle";
+            FigureType = "Circle";//todo pn тип - это скорей всего enum. хардкод.
         }
     }
 }
