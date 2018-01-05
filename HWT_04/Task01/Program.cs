@@ -30,10 +30,10 @@
                 } 
                 while (charArr.GetLength(0) == 0);
 
-                Console.WriteLine("\nIf you want to end, type 'No'\nIf you want to use program againg type anything");
+                Console.WriteLine("\nIf you want to end, type 'End'\nIf you want to use program againg type anything");
                 question = Console.ReadLine();
             } 
-            while (question != "No");
+            while (question != "End");
 
             Console.ReadKey();
         }
@@ -52,15 +52,16 @@
             {
                 for (int i = 1; i < line.Length + 1; i++)
                 {
-					if (charArr[i - 1] == ' ' && charArr[i] != ' ')
+                    if (Char.IsSeparator(charArr[i - 1]) && !Char.IsSeparator(charArr[i]))
                     {
-                        numberOfLines++;
+                        numberOfLines++; 
                     }
 
-                    if (charArr[i - 1] != ',' & charArr[i - 1] != '.' & charArr[i - 1] != ' ')//todo pn костыли. Char.IsSeparator
+                    if (!Char.IsSeparator(charArr[i - 1])) 
                     {
                         numberOfCharacter++;
                     }
+                    
                 }
 
                 Console.WriteLine("Number of lines: {0}, Number of characters: {1}", numberOfLines, numberOfCharacter);
