@@ -5,46 +5,25 @@
     public class Program
     {
         public static void Main(string[] args)
-        {
-            int tmp = 0; 
-            Triangle triangle = new Triangle();
+        { 
+            int a = 0,
+                b = 0,
+                c = 0;
 
-            do
-            {
-                Console.WriteLine("Enter the value of line 'a':");
-                triangle.A = AssignmentOfValues(tmp);
+            Console.WriteLine("Enter the value of line 'a':");
+            int.TryParse(Console.ReadLine(), out a);
+            
+            Console.WriteLine("Enter the value of line 'b':");
+            int.TryParse(Console.ReadLine(), out b);
 
-                Console.WriteLine("Enter the value of line 'b':");
-                triangle.B = AssignmentOfValues(tmp);
+            Console.WriteLine("Enter the value of line 'c':");
+            int.TryParse(Console.ReadLine(), out c);
 
-                Console.WriteLine("Enter the value of line 'c':");
-                triangle.C = AssignmentOfValues(tmp);
+            Triangle triangle = new Triangle(a, b, c);
 
-                if (triangle.IsTriangleExist() == false)
-                {
-                    Console.WriteLine("Triangle with this lines can not be exist. \nEnter the values of lines againe.");
-                }
-                else
-                {
-                    Console.WriteLine("Triangle with this lines exist.");
-                }
-            } 
-            while (triangle.IsTriangleExist() != true);
-
-            Console.WriteLine("Perimeter of triangle = {0} \nArea of triangle = {1}", triangle.Perimeter(), triangle.Area());
+            Console.WriteLine("Triangle with lines a = {0}, b = {1}, c = {2} have:\nPerimeter of triangle = {3} \nArea of triangle = {4}", triangle.A, triangle.B, triangle.C, triangle.Perimeter(), triangle.Area());
 
             Console.ReadKey();
-        }
-
-        /// <summary>
-        /// Проверка ввода с клавиатуры
-        /// </summary>
-        /// <param name="tmp">Параметр для передачи значения</param>
-        /// <returns></returns>
-        public static int AssignmentOfValues(int tmp)
-        {
-            int.TryParse(Console.ReadLine(), out tmp);
-            return tmp;
         }
     }
 }

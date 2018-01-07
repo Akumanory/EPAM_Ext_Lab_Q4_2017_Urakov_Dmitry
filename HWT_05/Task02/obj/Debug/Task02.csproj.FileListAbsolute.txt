@@ -3,3 +3,8 @@ C:\Users\koma\Desktop\EPAM\Домашняя\HWT_05\Task02\bin\Debug\Task02.pdb
 C:\Users\koma\Desktop\EPAM\Домашняя\HWT_05\Task02\obj\Debug\Task02.csprojResolveAssemblyReference.cache
 C:\Users\koma\Desktop\EPAM\Домашняя\HWT_05\Task02\obj\Debug\Task02.exe
 C:\Users\koma\Desktop\EPAM\Домашняя\HWT_05\Task02\obj\Debug\Task02.pdb
+C:\Users\koma\Desktop\HWT_05\Task02\obj\Debug\Task02.exe
+C:\Users\koma\Desktop\HWT_05\Task02\obj\Debug\Task02.pdb
+C:\Users\koma\Desktop\HWT_05\Task02\bin\Debug\Task02.exe
+C:\Users\koma\Desktop\HWT_05\Task02\bin\Debug\Task02.pdb
+C:\Users\koma\Desktop\HWT_05\Task02\obj\Debug\Task02.csprojResolveAssemblyReference.cache

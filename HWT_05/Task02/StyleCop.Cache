@@ -1,9 +1,12 @@
 <stylecopresultscache>
   <version>12</version>
+  <project key="-1851471630">
+    <configuration>DEBUG;TRACE</configuration>
+  </project>
   <sourcecode name="AssemblyInfo.cs" parser="StyleCop.CSharp.CsParser">
     <timestamps>
       <styleCop>2016.11.09 21:13:02.000</styleCop>
-      <settingsFile>2017.12.10 21:23:29.480</settingsFile>
+      <settingsFile>2018.01.07 21:04:32.322</settingsFile>
       <sourceFile>2017.12.10 20:44:21.989</sourceFile>
       <parser>2016.11.09 21:13:02.000</parser>
       <StyleCop.CSharp.DocumentationRules>2016.11.09 21:13:02.000</StyleCop.CSharp.DocumentationRules>
@@ -26,8 +29,8 @@
   <sourcecode name="Program.cs" parser="StyleCop.CSharp.CsParser">
     <timestamps>
       <styleCop>2016.11.09 21:13:02.000</styleCop>
-      <settingsFile>2017.12.10 21:23:29.480</settingsFile>
-      <sourceFile>2017.12.10 21:24:39.238</sourceFile>
+      <settingsFile>2018.01.07 21:04:32.322</settingsFile>
+      <sourceFile>2018.01.07 21:05:20.421</sourceFile>
       <parser>2016.11.09 21:13:02.000</parser>
       <StyleCop.CSharp.DocumentationRules>2016.11.09 21:13:02.000</StyleCop.CSharp.DocumentationRules>
       <StyleCop.CSharp.DocumentationRules.FilesHashCode>962423651</StyleCop.CSharp.DocumentationRules.FilesHashCode>
@@ -46,14 +49,14 @@
     </timestamps>
     <violations />
   </sourcecode>
-  <project key="-1851471630">
+  <project key="-615035373">
     <configuration>DEBUG;TRACE</configuration>
   </project>
   <sourcecode name="Triangle.cs" parser="StyleCop.CSharp.CsParser">
     <timestamps>
       <styleCop>2016.11.09 21:13:02.000</styleCop>
-      <settingsFile>2017.12.10 21:23:29.480</settingsFile>
-      <sourceFile>2017.12.10 21:29:14.947</sourceFile>
+      <settingsFile>2018.01.07 21:04:32.322</settingsFile>
+      <sourceFile>2018.01.07 21:05:57.375</sourceFile>
       <parser>2016.11.09 21:13:02.000</parser>
       <StyleCop.CSharp.DocumentationRules>2016.11.09 21:13:02.000</StyleCop.CSharp.DocumentationRules>
       <StyleCop.CSharp.DocumentationRules.FilesHashCode>962423651</StyleCop.CSharp.DocumentationRules.FilesHashCode>

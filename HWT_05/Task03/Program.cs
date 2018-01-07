@@ -28,8 +28,7 @@
             int.TryParse(Console.ReadLine(), out day);
 
             user.DateOfBorn = new DateTime(year, month, day);
-            user.GetAgeByBirthDate();
-
+            
             Console.WriteLine("Name:\t\t{0}\nSurname:\t{1}\nPatronymic:\t{2}\nDateOfBorn:\t{3:yyyy MM dd}\nAge:\t\t{4}", user.Name, user.Surname, user.Patronymic, user.DateOfBorn, user.Age);
             Console.ReadKey();
         }

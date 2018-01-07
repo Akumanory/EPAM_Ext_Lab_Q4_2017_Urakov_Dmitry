@@ -19,7 +19,7 @@
 
             set
             {
-                if (value != string.Empty)
+                if (!string.IsNullOrEmpty(value))
                 {
                     surname = value;
                 }
@@ -35,7 +35,7 @@
 
             set
             {
-                if (value != string.Empty) //todo pn string.IsNullOrEmpty
+                if (!string.IsNullOrEmpty(value))
                 {
                     name = value;
                 }
@@ -51,7 +51,7 @@
 
             set
             {
-                if (value != string.Empty)
+                if (!string.IsNullOrEmpty(value))
                 {
                     patronymic = value;
                 }
@@ -73,20 +73,20 @@
 
         public int Age
         {
-            get { return age; }
-        }
-
-        public void GetAgeByBirthDate()//todo pn аналогично, вычисление должно быть в age
-        {
-            DateTime now = DateTime.Now;
-            int age = now.Year - dateOfBorn.Year;
-
-            if (now.AddYears(-age) < dateOfBorn)
+            get
             {
-                age--;
-            }
+                DateTime now = DateTime.Now;
+                int age = now.Year - dateOfBorn.Year;
 
-            this.age = age;
+                if (now.AddYears(-age) < dateOfBorn)
+                {
+                    age--;
+                }
+
+                this.age = age;
+                
+                return this.age; 
+            }           
         }
     }
 }
