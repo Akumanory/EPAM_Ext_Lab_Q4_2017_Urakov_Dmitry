@@ -1,11 +1,13 @@
 ﻿namespace Task01
 {
+    using System;
+
     public class Employee : User
     {
-        private int workExperience;
+        private DateTime workExperience;
         private string position;
 
-        public int WorkExperience//todo pn лучше датой
+        public DateTime WorkExperience
         {
             get
             {
@@ -13,11 +15,8 @@
             }
 
             set
-            {
-                if (value >= 0)
-                {
+            { 
                     workExperience = value;
-                }
             }
         }
 

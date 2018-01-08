@@ -1,16 +1,14 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Task03
+﻿namespace Task03
 {
+    using System;
+
     class Line : Figure
     {
+        FiguresShapes type = FiguresShapes.Line;
+
         public Line()
         {
-            FigureType = "Line";
+            FigureType = type.ToString();
         }
     }
 }

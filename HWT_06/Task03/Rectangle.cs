@@ -1,16 +1,14 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Task03
+﻿namespace Task03
 {
+    using System;
+
     class Rectangle : Figure
     {
+        FiguresShapes type = FiguresShapes.Rectangle;
+
         public Rectangle()
         {
-            FigureType = "Rectangle";
+            FigureType = type.ToString();
         }
     }
 }

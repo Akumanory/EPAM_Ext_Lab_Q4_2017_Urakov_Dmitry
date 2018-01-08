@@ -2,3 +2,8 @@ C:\Users\koma\Desktop\EPAM\Домашняя\HWT_06\Task03\bin\Debug\Task03.exe
 C:\Users\koma\Desktop\EPAM\Домашняя\HWT_06\Task03\bin\Debug\Task03.pdb
 C:\Users\koma\Desktop\EPAM\Домашняя\HWT_06\Task03\obj\Debug\Task03.exe
 C:\Users\koma\Desktop\EPAM\Домашняя\HWT_06\Task03\obj\Debug\Task03.pdb
+C:\Users\koma\Desktop\HWT_06\Task03\obj\Debug\Task03.exe
+C:\Users\koma\Desktop\HWT_06\Task03\obj\Debug\Task03.pdb
+C:\Users\koma\Desktop\HWT_06\Task03\bin\Debug\Task03.exe
+C:\Users\koma\Desktop\HWT_06\Task03\bin\Debug\Task03.pdb
+C:\Users\koma\Desktop\HWT_06\Task03\obj\Debug\Task03.csprojResolveAssemblyReference.cache

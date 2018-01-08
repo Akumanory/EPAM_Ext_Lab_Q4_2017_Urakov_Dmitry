@@ -8,9 +8,11 @@ namespace Task03
 {
     class Round : Figure
     {
+        FiguresShapes type = FiguresShapes.Round;
+
         public Round()
         {
-            FigureType = "Round";
+            FigureType = type.ToString();
         }
     }
 }

@@ -24,7 +24,8 @@
         /// <param name="employee">Экзэмпляр класса</param>
         public static void FillingFieldsAndOutputToConsole(Employee employee)
         {
-            int year, day, month, workExperience;
+            int year, day, month;
+            DateTime startWorkExpirience, endWorkExpirience;
 
             Console.WriteLine("Enter Name of user:");
             employee.Name = Console.ReadLine();
@@ -47,16 +48,30 @@
             employee.DateOfBorn = new DateTime(year, month, day);
             employee.GetAgeByBirthDate();
 
-            Console.WriteLine("Enter the number of years of work experience:");
-            if (int.TryParse(Console.ReadLine(), out workExperience) == true)
-            {
-                employee.WorkExperience = workExperience;
-            }
-
             Console.WriteLine("Enter the position of employee");
             employee.Position = Console.ReadLine();
 
-            Console.WriteLine("\nName:\t\t{0}\nSurname:\t{1}\nPatronymic:\t{2}\nDateOfBorn:\t{3:yyyy MM dd}\nAge:\t\t{4}\nWork expirience\t{5}\nPosition\t{6}", employee.Name, employee.Surname, employee.Patronymic, employee.DateOfBorn, employee.Age, employee.WorkExperience, employee.Position);
+            Console.WriteLine("Enter the start date of work experience:");
+            startWorkExpirience = WorkExpirienceAssigment(employee, year, month, day);
+
+            Console.WriteLine("Enter the end date of work experience:");
+            endWorkExpirience = WorkExpirienceAssigment(employee, year, month, day);
+
+            Console.WriteLine("\nName:\t\t{0}\nSurname:\t{1}\nPatronymic:\t{2}\nDateOfBorn:\t{3:yyyy MM dd}\nAge:\t\t{4}\nWork expirience {5} years from:\t{6:yyyy MM dd} to {7:yyyy MM dd}\nPosition\t{8}", employee.Name, employee.Surname, employee.Patronymic, employee.DateOfBorn, employee.Age, endWorkExpirience.Year - startWorkExpirience.Year, startWorkExpirience, endWorkExpirience, employee.Position);
+        }
+
+        public static DateTime WorkExpirienceAssigment(Employee employee, int year, int month, int day)
+        {
+            Console.WriteLine("Enter Year of user's work expirience:");
+            int.TryParse(Console.ReadLine(), out year);
+
+            Console.WriteLine("Enter Month of user's work expirience:");
+            int.TryParse(Console.ReadLine(), out month);
+
+            Console.WriteLine("Enter Day of user's work expirience:");
+            int.TryParse(Console.ReadLine(), out day);
+
+            return employee.WorkExperience = new DateTime(year, month, day);
         }
     }
 }

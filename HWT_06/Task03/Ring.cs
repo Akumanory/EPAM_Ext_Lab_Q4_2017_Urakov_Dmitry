@@ -8,9 +8,11 @@ namespace Task03
 {
     class Ring : Figure
     {
+        FiguresShapes type = FiguresShapes.Ring;
+
         public Ring()
         {
-            FigureType = "Ring";
+            FigureType = type.ToString();
         }
     }
 }
