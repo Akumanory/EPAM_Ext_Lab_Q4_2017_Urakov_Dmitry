@@ -3,3 +3,8 @@
 .exe
 .o
 .so
+.StyleCop
+.csproj
+.txt
+.exe
+.pdb
