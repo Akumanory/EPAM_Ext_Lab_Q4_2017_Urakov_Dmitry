@@ -6,7 +6,7 @@
     {
         private int x;
         private int y;
-        private string figureType;
+        private string figureType;//todo pn для этого используют enum
 
         public int X
         {

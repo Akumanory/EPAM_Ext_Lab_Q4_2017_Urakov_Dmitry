@@ -7,7 +7,7 @@
         private DateTime workExperience;
         private string position;
 
-        public DateTime WorkExperience
+        public DateTime WorkExperience//todo pn где проверка, что возраст не меньше, чем опыт работы?
         {
             get
             {
