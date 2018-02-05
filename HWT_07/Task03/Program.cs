@@ -7,7 +7,7 @@
         /*
          На базе обычного массива (коллекции .NET не использовать) реализовать свой собственный класс DynamicArray, представляющий собой массив с запасом.
          */
-        public static void Main(string[] args)
+		public static void Main(string[] args) //todo pn Remove, Reset не тестируются
         {
             int[] ar = new int[] { 6, 3, 7 };
 

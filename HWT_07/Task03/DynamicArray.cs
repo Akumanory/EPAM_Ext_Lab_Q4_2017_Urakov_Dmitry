@@ -106,13 +106,13 @@
 
             for (int i = 0; i < arraySize; i++)
             {
-                if (array[i].ToString() == "0" & flag == 0)
+                if (array[i].ToString() == "0" & flag == 0) //todo pn чот какие-то костыли (особенно сравнение с "0")
                 {
                     array[i] = element;
                     flag = 1;
                 }
 
-                if (array[array.Length - 1].ToString() != "0")
+				if (array[array.Length - 1].ToString() != "0") //todo pn чот какие-то костыли (особенно сравнение с "0")
                 {
                     DoubleArraySize();
                 }
@@ -127,7 +127,7 @@
 
             for (int i = 0; i < arraySize; i++)
             {
-                if (array[i].ToString() == "0" & flag == 0)
+				if (array[i].ToString() == "0" & flag == 0)//todo pn чот какие-то костыли (особенно сравнение с "0")
                 {
                     index = i;
                     flag = 1;

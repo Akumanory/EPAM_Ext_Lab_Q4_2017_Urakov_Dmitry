@@ -27,7 +27,7 @@
         /// Моделирует процесс задачи
         /// </summary>
         /// <param name="numberOfElements">Количество находящихся в кругу</param>
-        public static void ModelProcessOfTask(int numberOfElements)
+        public static void ModelProcessOfTask(int numberOfElements)//todo pn использовать формулу для задачи Иосифа
         {
             int circleCounting = 0;
             ArrayList array = new ArrayList();
