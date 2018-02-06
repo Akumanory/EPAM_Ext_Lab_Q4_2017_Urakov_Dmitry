@@ -1,6 +1,6 @@
-.com
-.class
-.exe
+*.com
+*.class
+*.exe
 .o
 .so
 .StyleCop
